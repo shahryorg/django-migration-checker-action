@@ -28,7 +28,7 @@ jobs:
           fetch-depth: 1
 
       - name: Django Migration Checker
-        uses: JoeRoumy/django-migration-checker-action@v1.0
+        uses: shahryorg/django-migration-checker-action@v1.0
         with:
           app-path: app
 ```
